@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vitor Emanuel • Portfólio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gradient-to-r from-[#1c1a1a] to-[#808080] text-white font-sans">
+
+  <!-- NAVBAR -->
+  <nav class="fixed top-0 left-0 w-full z-50 backdrop-blur bg-black/60 shadow-md">
+    <div class="flex justify-center space-x-6 py-4">
+      <a href="#home" class="hover:text-blue-400 uppercase text-sm">Home</a>
+      <a href="#sobre" class="hover:text-blue-400 uppercase text-sm">Sobre</a>
+      <a href="#skills" class="hover:text-blue-400 uppercase text-sm">Skills</a>
+      <a href="#certifications" class="hover:text-blue-400 uppercase text-sm">Certificações</a>
+      <a href="#projects" class="hover:text-blue-400 uppercase text-sm">Projetos</a>
+      <a href="#contact" class="hover:text-blue-400 uppercase text-sm">Contato</a>
+    </div>
+  </nav>
+
+  <!-- CONTAINER CENTRAL -->
+  <div class="max-w-4xl mx-auto bg-black/50 rounded-xl shadow-lg px-6 py-12 mt-24">
+
+
+  <!-- HEADER -->
+  <header id="home" class="flex flex-col items-center justify-center min-h-screen px-4 pt- text-center">
+    <img 
+      src="images/111.jpg" 
+      alt="Vitor Emanuel" 
+      class="w-[350px] aspect-square rounded-full object-cover mb-20 border-4 border-white/20 shadow-xl"
+    >
+    <h1 class="text-4xl uppercase tracking-widest font-bold">Vitor Emanuel</h1>
+    <p class="text-gray-300 text-lg mt-2">Analista de Dados</p>
+    <div class="flex mt-6 space-x-6">
+      <a href="https://www.linkedin.com/in/vitor-emanuel-76b07b24b/" class="hover:text-blue-400">LinkedIn</a>
+      <a href="https://github.com/zVitor-Emanuel" class="hover:text-blue-400">GitHub</a>
+      <a href="https://medium.com/@vitor_emanuel" class="hover:text-blue-400">Medium</a>
+    </div>
+    <a href="curriculo.pdf" download class="mt-8 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg shadow-md transition duration-300">
+      Baixar Currículo
+    </a>
+  </header>
+  
+  <div class="border-t border-white/20 my-12"></div>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="px-6 py-16">
+    <div class="max-w-2xl mx-auto text-center">
+      <h2 class="text-2xl uppercase font-semibold mb-4 border-b border-white/30 pb-1">
+        Sobre Mim
+      </h2>
+      <p class="text-gray-300 leading-relaxed mt-6 text-left">
+        Sou formado em Desenvolvimento de Sistemas - Integrado ao Ensino Médio pela ETEC e atualmente curso uma graduação em Matemática na Universidade de São Paulo (USP).
+        Sempre tive uma afinidade e gosto por números e lógica, o que me levou a desenvolver um grande interesse por matemática e estatística, áreas que venho estudando com cada vez mais profundidade.
+        <br><br>
+        Tenho conhecimento em Python, SQL, Excel e AWS, ferramentas que utilizo para explorar dados,
+        gerar insights e construir soluções que unem análise técnica com pensamento crítico. Além disso,
+        possuo inglês avançado, o que me permite estudar conteúdos de diversas fontes e colaborar em ambientes diversos.
+        <br><br>
+        Atualmente, estou em busca da minha primeira oportunidade profissional na área de dados,
+        onde possa aplicar e expandir meus conhecimentos, enfrentar desafios reais e contribuir com soluções inteligentes e bem fundamentadas.
+      </p>
+    </div>
+  </section>
+  
+  
+
+  <div class="border-t border-white/20 my-12"></div>
+
+
+  <!-- SKILLS -->
+  <section id="skills" class="text-center px-6 py-16">
+    <h2 class="text-2xl uppercase font-semibold mb-10 border-b border-white/30 inline-block pb-1">Skills</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-10">
+      <div class="flex flex-col items-center card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="w-12 mb-2">
+        <p class="text-sm uppercase tracking-wider text-center">Python<br>NumPy / Pandas / Seaborn</p>
+      </div>
+      <div class="flex flex-col items-center card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" class="w-12 mb-2">
+        <p class="text-sm uppercase tracking-wider">SQL</p>
+      </div>
+      <div class="flex flex-col items-center card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Microsoft_Excel_2013-2019_logo.svg" class="w-12 mb-2">
+        <p class="text-sm uppercase tracking-wider">Excel</p>
+      </div>
+      <div class="flex flex-col items-center card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" class="w-12 mb-2">
+        <p class="text-sm uppercase tracking-wider">AWS</p>
+      </div>
+      <div class="flex flex-col items-center card col-span-full sm:col-span-2 md:col-span-1 mx-auto">
+        <img src="/images/chart.png" class="w-12 mb-2">
+        <p class="text-sm uppercase tracking-wider">Estatística</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="border-t border-white/20 my-12"></div>
+
+
+  <!-- CERTIFICAÇÕES -->
+  <section id="certifications" class="text-center px-6 py-16">
+    <h2 class="text-2xl uppercase font-semibold mb-10 border-b border-white/30 inline-block pb-1">Certificações</h2>
+    <div class="flex flex-col items-center card max-w-md mx-auto space-y-4">
+      <img src="/images/cpp.png" class="h-20" alt="AWS Cloud Practitioner">
+      <p class="text-lg font-semibold">AWS Certified Cloud Practitioner</p>
+    </div>
+  </section>
+
+  <div class="border-t border-white/20 my-12"></div>
+
+
+  <!-- PROJETOS -->
+  <section id="projects" class="text-center px-6 py-16">
+    <h2 class="text-2xl uppercase font-semibold mb-10 border-b border-white/30 inline-block pb-1">Projetos</h2>
+    <div class="flex flex-col md:flex-row bg-[#1f1f2e] rounded-xl overflow-hidden shadow-lg">
+      <div class="md:w-1/2 p-6 text-left">
+        <a href="https://kzr72wbgbfte5iu8rumgfo.streamlit.app/" target="_blank" class="text-xl font-bold text-blue-400 hover:underline uppercase">Analise Exploratória Campanha de Marketing</a>
+        <h4 class="text-sm text-gray-400 mt-2 uppercase">Ferramentas: Python, Pandas, Seaborn, Matplotlib e Streamlit</h4>
+        <p class="text-gray-300 mt-4">
+         Analise dos dados de uma campanha de marketing, entendendo o perfil dos cliente da base e visualizando insights para melhorar a obtenção de lucro.
+        </p>
+      </div>
+      <div class="md:w-1/2">
+        <img src="/images/grafico.png" alt="Pizza Project" class="object-cover w-full h-full">
+      </div>
+    </div>
+  </section>
+
+  <div class="border-t border-white/20 my-12"></div>
+
+
+  <!-- CONTATO -->
+  <section id="contact" class="text-center px-6 py-16">
+    <h2 class="text-2xl uppercase font-semibold mb-10 border-b border-white/30 inline-block pb-1">Contato</h2>
+    <form action="https://formsubmit.co/vitoremanuel@usp.br" method="POST" class="max-w-md mx-auto flex flex-col space-y-6">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="text" name="name" placeholder="Seu nome" required class="p-3 bg-transparent border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400">
+      <input type="email" name="email" placeholder="Seu e-mail" required class="p-3 bg-transparent border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400">
+      <textarea name="message" placeholder="Sua mensagem" rows="5" required class="p-3 bg-transparent border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"></textarea>
+      <button type="submit" class="btn">Enviar mensagem</button>
+    </form>
+  </section>
+
+  </div>
+</body>
+</html>
